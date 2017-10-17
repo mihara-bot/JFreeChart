@@ -37,7 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </html>
 
 ```
-###quyu.jsp
+### quyu.jsp
 ```
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
@@ -76,7 +76,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </html>
 
 ```
-###jfree_jdbc.java
+### jfree_jdbc.java
 ```
 package bean;
 
@@ -136,7 +136,7 @@ public class jfree_jdbc {
     }  
 } 
 ```
-### _jdbc.java
+###  _jdbc.java
 ```
 package bean;
 
@@ -165,7 +165,7 @@ public class _jdbc extends HttpServlet {
 }
 
 ```
-###web.jsp
+### web.jsp
 ```
  <servlet>
 		<servlet-name>DisplayChart</servlet-name>
